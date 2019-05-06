@@ -3,9 +3,7 @@
 ######################
 /target/www/**
 /src/test/javascript/coverage/
-
-.jhipster
-jhipster-jdl.jh
+dev.sh
 .yo-rc.json
 bk.yo-rc.json
 
