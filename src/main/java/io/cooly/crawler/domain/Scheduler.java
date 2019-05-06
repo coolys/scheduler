@@ -26,7 +26,7 @@ public class Scheduler implements Serializable {
     @Field("timezone")
     private String timezone;
 
-    // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
+    // coolebot-needle-entity-add-field - Coolebot will add fields here, do not remove
     public String getId() {
         return id;
     }
@@ -60,7 +60,7 @@ public class Scheduler implements Serializable {
     public void setTimezone(String timezone) {
         this.timezone = timezone;
     }
-    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here, do not remove
+    // coolebot-needle-entity-add-getters-setters - Coolebot will add getters and setters here, do not remove
 
     @Override
     public boolean equals(Object o) {

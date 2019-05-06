@@ -24,7 +24,7 @@ public class ScheduleConfig implements Serializable {
     @Field("name")
     private String name;
 
-    // jhipster-needle-entity-add-field - JHipster will add fields here, do not remove
+    // coolebot-needle-entity-add-field - Coolebot will add fields here, do not remove
     public String getId() {
         return id;
     }
@@ -45,7 +45,7 @@ public class ScheduleConfig implements Serializable {
     public void setName(String name) {
         this.name = name;
     }
-    // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here, do not remove
+    // coolebot-needle-entity-add-getters-setters - Coolebot will add getters and setters here, do not remove
 
     @Override
     public boolean equals(Object o) {
