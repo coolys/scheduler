@@ -40,7 +40,7 @@ local.properties
 .loadpath
 .factorypath
 /src/main/resources/rebel.xml
-
+dev.sh
 # External tool builders
 .externalToolBuilders/**
 
