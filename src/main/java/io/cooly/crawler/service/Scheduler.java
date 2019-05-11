@@ -9,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
 import io.cooly.crawler.client.FetcherServiceClient;
 
 @Component
@@ -19,10 +18,9 @@ public class Scheduler {
     private FetcherServiceClient webUrlClient;
     @Scheduled(fixedRate = 1000)
     public void fixedRateSch() {
-        List<WebUrl> fetchList = webUrlClient.getFetches();
-        for(WebUrl fetch: fetchList) {
-            log.info("=======current fetch: {}", fetch);
-        }
+        WebUrl web = new WebUrl();
+        web.setUrl("https://vnexpress.net/");
+        webUrlClient.createWebUrl(web);
 
     }
 }
